@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol>:nth-child(1){
+            font-weight: bold;
+        }
+        ol>:nth-child(1)+li{
+            background-color: aqua;
+        }
+        ol>:nth-child(2)~li{
+            font-style: italic;
+        }
+        li:hover{
+           outline:1px solid brown;
+           color: rgb(0, 255, 42);
+           cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>Surya</li>
+        <li>Bhuvi</li>
+        <li>Jake</li>
+        <li>kohli</li>
+        <li>Philllip</li>
+    </ol>
+</body>
+</html>
